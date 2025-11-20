@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.bazaarewatan.app"
-    compileSdkVersion 35
+    compileSdkVersion 36
     ndkVersion "25.1.8937393"
 
     compileOptions {
@@ -43,7 +43,7 @@ android {
     defaultConfig {
         applicationId "com.bazaarewatan.app"
         minSdkVersion 21
-        targetSdkVersion 35
+        targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
