@@ -27,8 +27,8 @@ dependencies:
   # Storage
   shared_preferences: ^2.2.2
   
-  # Image Picker (temporarily disabled for build)
-  # image_picker: ^1.0.5
+  # Image Picker
+  image_picker: ^1.0.5
   
   # URL Launcher
   url_launcher: ^6.2.2
