@@ -1,0 +1,66 @@
+name: bazaarew_app
+description: بازار وطن - Bazaar Watan
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.2
+  dio: ^5.4.0
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Image Picker (temporarily disabled for build)
+  # image_picker: ^1.0.5
+  
+  # URL Launcher
+  url_launcher: ^6.2.2
+  
+  # Notifications (commented out for now - can add later if needed)
+  # firebase_core: ^2.24.2
+  # firebase_messaging: ^14.7.9
+  # flutter_local_notifications: ^16.2.0
+  
+  # Date & Time
+  intl: ^0.18.1
+  timeago: ^3.6.0
+  
+  # Toast & Dialogs
+  fluttertoast: ^8.2.4
+  
+  # Loading Indicators
+  flutter_spinkit: ^5.2.0
+  
+  # Image Upload
+  mime: ^1.0.4
+  http_parser: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/images/
+
