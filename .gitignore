@@ -16,8 +16,8 @@ android/app/profile/
 android/app/release/
 android/captures/
 android/.cxx/
-*.jks
-*.keystore
+# *.jks - Commented out to allow keystore for release builds
+# *.keystore - Commented out to allow keystore for release builds
 
 # IDE
 .idea/
